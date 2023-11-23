@@ -1,9 +1,17 @@
 .product-thumbnail {
   text-align: center;
   border:solid;
-  border-color: blue;
+  border-color: #00ff2a;
 }
 
-img {
+.product-thumbnail__image {
   max-width: 100%;
+}
+
+.product-thumbnail__title {
+  color: #333;
+}
+
+.product-thumbnail__title--highlight {
+  color: #ff9900;
 }
