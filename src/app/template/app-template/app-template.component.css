@@ -1,0 +1,5 @@
+:host {
+    display: block;
+    border: 1px solid #ccc;  /* Establece el borde del componente de template */
+    padding: 10px;          /* Añade un relleno para separar el contenido del borde */
+  }

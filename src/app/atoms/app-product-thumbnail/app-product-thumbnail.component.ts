@@ -1,15 +1,11 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-product-thumbnail',
   templateUrl: './app-product-thumbnail.component.html',
   styleUrls: ['./app-product-thumbnail.component.css']
 })
-export class AppProductThumbnailComponent implements OnInit {
+export class AppProductThumbnailComponent{
   @Input() product: any;
   constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

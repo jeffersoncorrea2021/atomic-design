@@ -1,7 +1,9 @@
 .product-thumbnail {
-    text-align: center;
-  }
+  text-align: center;
+  border:solid;
+  border-color: blue;
+}
 
-  img {
-    max-width: 100%;
-  }
+img {
+  max-width: 100%;
+}
